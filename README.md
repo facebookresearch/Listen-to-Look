@@ -6,7 +6,7 @@
 <br/>
 
 [Listen to Look: Action Recognition by Previewing Audio](https://arxiv.org/abs/1912.04487)  
- [Ruohan Gao](https://www.cs.utexas.edu/~rhgao/)<sup>1,2</sup>,  [Tae-Hyun Oh](https://thohkaistackr.wixsite.com/page)<sup>1</sup>,  [Kristen Grauman](http://www.cs.utexas.edu/~grauman/)<sup>1,2</sup>, [Lorenzo Torresani](https://www.cs.dartmouth.edu/~lorenzo/home.html)<sup>2</sup> <br/>
+ [Ruohan Gao](https://www.cs.utexas.edu/~rhgao/)<sup>1,2</sup>,  [Tae-Hyun Oh](https://thohkaistackr.wixsite.com/page)<sup>2</sup>,  [Kristen Grauman](http://www.cs.utexas.edu/~grauman/)<sup>1,2</sup>, [Lorenzo Torresani](https://www.cs.dartmouth.edu/~lorenzo/home.html)<sup>2</sup> <br/>
  <sup>1</sup>UT Austin, <sup>2</sup>Facebook AI Research  
  In Conference on Computer Vision and Pattern Recognition (**CVPR**), 2020  
  
