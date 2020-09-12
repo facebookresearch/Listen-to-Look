@@ -22,7 +22,12 @@ If you find our code or project useful in your research, please cite:
     }
 
 ### Preparation
-The image features, audio features, and image-audio features for ActivityNet are shared at [this link](https://utexas.box.com/s/8rxijymjo0kx4e9jk7byobdc8vnf377l). After IMGAUD2VID distillation on Kinetics, we fine-tune the image-audio network for action classification on AcitivityNet. The image features, audio features, and image-audio features after the fusion layer (see Fig.2 in the paper) are extracted from the fine-tuned image-audio network. The image-audio model fine-tuned on ActivityNet and the pickle files of the paths to the image-audio features are also shared.
+The image features, audio features, and image-audio features for ActivityNet are shared at [this link](https://utexas.box.com/s/8rxijymjo0kx4e9jk7byobdc8vnf377l). After IMGAUD2VID distillation on Kinetics, we fine-tune the image-audio network for action classification on AcitivityNet. The image features, audio features, and image-audio features after the fusion layer (see Fig.2 in the paper) are extracted from the fine-tuned image-audio network. The image-audio model fine-tuned on ActivityNet and the pickle files of the paths to the image-audio features are also shared. The features can also be downloaded using the commands below:
+```
+wget http://dl.fbaipublicfiles.com/rhgao/ListenToLook/image_features.tar.gz
+wget http://dl.fbaipublicfiles.com/rhgao/ListenToLook/audio_features.tar.gz
+wget http://dl.fbaipublicfiles.com/rhgao/ListenToLook/imageAudio_features.tar.gz
+```
 
 ### Training and Testing
 (The code has beed tested under the following system environment: Ubuntu 18.04.3 LTS, CUDA 10.0, Python 3.7.3, PyTorch 1.0.1)
@@ -69,6 +74,11 @@ python validate.py \
 --feature_interpolate \
 --subsample_factor 1 \
 --compute_mAP
+```
+
+4. The single modality variant of our model is shared under listen\_to\_look\_single\_modality. The r2plus1d152 features for ActivityNet can be downloaded using the command below:
+```
+wget http://dl.fbaipublicfiles.com/rhgao/ListenToLook/r2plus1d152_features.tar.gz
 ```
 
 ### Acknowlegements
